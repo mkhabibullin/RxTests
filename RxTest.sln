@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RxTest", "RxTest\RxTest.csproj", "{7EFA2505-D427-4253-8113-84CA54552EAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FCB34EC0-968F-49AB-B0EF-587321672EAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{FCB34EC0-968F-49AB-B0EF-587321672EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{3459A2D6-B54D-4F8F-8875-5E9FE9DA2F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "Generator\Generator.csproj", "{AD1DA7F5-176B-40D2-9E1C-420E558C9784}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{FCB34EC0-968F-49AB-B0EF-587321672EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCB34EC0-968F-49AB-B0EF-587321672EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCB34EC0-968F-49AB-B0EF-587321672EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD1DA7F5-176B-40D2-9E1C-420E558C9784} = {3459A2D6-B54D-4F8F-8875-5E9FE9DA2F82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF378BC4-EDF2-4698-9DA3-2A690CA6D845}

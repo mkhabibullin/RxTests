@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{3459A2D6-B54D-4F8F-8875-5E9FE9DA2F82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "Generator\Generator.csproj", "{AD1DA7F5-176B-40D2-9E1C-420E558C9784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generator", "Generator\Generator.csproj", "{AD1DA7F5-176B-40D2-9E1C-420E558C9784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotObservable", "HotObservable\HotObservable.csproj", "{C71D3955-6214-4EB1-A66D-FEB65172750E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagerVsLazySequenceCreation", "EagerVsLazySequenceCreation\EagerVsLazySequenceCreation.csproj", "{095F21D5-EC6D-4FA2-BB77-A21ED3D132B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1DA7F5-176B-40D2-9E1C-420E558C9784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71D3955-6214-4EB1-A66D-FEB65172750E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71D3955-6214-4EB1-A66D-FEB65172750E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71D3955-6214-4EB1-A66D-FEB65172750E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71D3955-6214-4EB1-A66D-FEB65172750E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095F21D5-EC6D-4FA2-BB77-A21ED3D132B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095F21D5-EC6D-4FA2-BB77-A21ED3D132B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095F21D5-EC6D-4FA2-BB77-A21ED3D132B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095F21D5-EC6D-4FA2-BB77-A21ED3D132B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

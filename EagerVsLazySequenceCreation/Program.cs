@@ -12,7 +12,9 @@ namespace EagerVsLazySequenceCreation
         {
             Console.WriteLine("Eagerly created sequence");
             var eagerSequence = BlockingMethod();
-            var subscription = eagerSequence.Subscribe(Console.WriteLine);
+            var subscription = eagerSequence
+                .Take(1)
+                .Subscribe(Console.WriteLine);
             subscription.Dispose();
 
             Console.WriteLine("Press key");
@@ -20,7 +22,9 @@ namespace EagerVsLazySequenceCreation
 
             Console.WriteLine("Lazierly created sequence");
             var lazySequence = NonBlocking();
-            subscription = lazySequence.Subscribe(Console.WriteLine);
+            subscription = lazySequence
+                .Take(1)
+                .Subscribe(Console.WriteLine);
             subscription.Dispose();
 
             Console.WriteLine("Press key to exit");
